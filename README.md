@@ -20,7 +20,7 @@ By leveraging the **Microsoft Planetary Computer API**, the system tasks the Sen
 *   **Smart Masking:** Implements a Multi-Index Decision Tree:
     *   **NDVI (Normalized Difference Vegetation Index):** Assesses plant health/chlorophyll.
     *   **NDWI (Normalized Difference Water Index):** Masks out water bodies to prevent false positives.
-*   **Compliance Reports:** Generates dynamic HTML executive summaries classifying regions as "Compliant" or "Critical Risk" based on spectral stress analysis.
+*   **Compliance Reports:** Generates dynamic executive summaries classifying regions as "Compliant" or "Critical Risk" based on spectral stress analysis.
 
 ---
 
