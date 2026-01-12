@@ -3,7 +3,9 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
 [![Sentinel-2](https://img.shields.io/badge/Data-Sentinel--2-green?style=for-the-badge)](https://planetarycomputer.microsoft.com/)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge)](LICENSE)
+
+> **"An automated satellite auditing pipeline that tasks Sentinel-2 imagery to generate real-time, multi-spectral deforestation risk assessments for EUDR compliance."**
 
 **EcoSentinel** is a high-performance geospatial engine designed to verify supply chain compliance with the **European Union Deforestation Regulation (EUDR)**. 
 
@@ -29,17 +31,17 @@ EcoSentinel offers three distinct ways to target and audit land areas.
 ### 1. Preset Agricultural Hubs
 Select from known high-risk or high-value regions (e.g., Amazon Rainforest, Bordeaux Vineyards) for instant analysis.
 
-![Mode 1 Presets](gif/mode_1_preset.gif)
+![Mode 1 Presets](https://github.com/sameerhussai230/ecosentinel-multispectral-eudr/blob/main/gif/presets_values_amazon.gif?raw=true)
 
 ### 2. Global Geocoding Search
 Type any address, city, or region name. The system geocodes the input and tasks the satellites for a 10km radius around that point.
 
-![Mode 2 Search](gif/mode_2_search.gif)
+![Mode 2 Search](https://github.com/sameerhussai230/ecosentinel-multispectral-eudr/blob/main/gif/Keyword_search_any_region_globally.gif?raw=true)
 
 ### 3. Interactive Area Drawing
-Use the polygon tool to draw a specific farm boundaries. Ideally suited for checking specific land parcels against EUDR plot data.
+Use the polygon tool to draw specific farm boundaries. Ideally suited for checking specific land parcels against EUDR plot data.
 
-![Mode 3 Draw](gif/mode_3_draw.gif)
+![Mode 3 Draw](https://github.com/sameerhussai230/ecosentinel-multispectral-eudr/blob/main/gif/Draw_any_region_gloabaly.gif?raw=true)
 
 ---
 
