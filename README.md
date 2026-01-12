@@ -64,5 +64,5 @@ The pipeline consists of three decoupled modules:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/ecosentinel-multispectral-eudr.git
+git clone https://github.com/sameerhussai230/ecosentinel-multispectral-eudr.git
 cd ecosentinel-multispectral-eudr
