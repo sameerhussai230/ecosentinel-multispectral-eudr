@@ -1,0 +1,14 @@
+pystac-client
+planetary-computer
+stackstac
+rioxarray
+xarray
+pandas
+pyyaml
+matplotlib
+dask
+rasterio
+requests
+folium
+streamlit-folium
+geopy

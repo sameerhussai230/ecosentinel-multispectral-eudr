@@ -1,0 +1,11 @@
+# Project: EcoSentinel (EUDR Compliance)
+# Configuration: System Defaults
+
+satellite:
+  collection: "sentinel-2-l2a"
+  # Default cloud tolerance if not specified dynamically
+  max_cloud_cover: 25 
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
