@@ -32,17 +32,19 @@ EcoSentinel offers three distinct ways to target and audit land areas.
 Select from known high-risk or high-value regions (e.g., Amazon Rainforest, Bordeaux Vineyards) for instant analysis.
 
 ![Mode 1 Presets](https://github.com/sameerhussai230/ecosentinel-multispectral-eudr/blob/main/gif/presets_values_amazon.gif?raw=true)
+📄 **[Download Detailed Analysis Report (PDF)](docs/presets_values_amazon.pdf)**
 
 ### 2. Global Geocoding Search
 Type any address, city, or region name. The system geocodes the input and tasks the satellites for a 10km radius around that point.
 
 ![Mode 2 Search](https://github.com/sameerhussai230/ecosentinel-multispectral-eudr/blob/main/gif/Keyword_search_any_region_globally.gif?raw=true)
+📄 **[Download detailed Analysis Report (PDF)](docs/Keyword_search_any_region_globally.pdf)**
 
 ### 3. Interactive Area Drawing
 Use the polygon tool to draw specific farm boundaries. Ideally suited for checking specific land parcels against EUDR plot data.
 
 ![Mode 3 Draw](https://github.com/sameerhussai230/ecosentinel-multispectral-eudr/blob/main/gif/Draw_any_region_gloabaly.gif?raw=true)
-
+📄 **[Download detailed Analysis Report (PDF)](docs/Draw_any_region_gloabaly.pdf)**
 ---
 
 ## 🛠️ Architecture
