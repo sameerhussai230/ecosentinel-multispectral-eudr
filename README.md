@@ -88,7 +88,7 @@ The system utilizes a decoupled architecture to separate heavy processing from a
 
 1.  **`ingest.py`**: Connects to the STAC Catalog, filters for the least cloudy scenes, creates a median mosaic, and saves raw bands (`B02`, `B03`, `B04`, `B08`).
 2.  **`process.py`**: Reads raw bands to generate True Color Composites, calculates spectral masks (NDVI/NDWI), and extracts forensic JSON metrics.
-3.  **`agent.py`** *(New)*: Orchestrates the LangGraph workflow, querying the ChromaDB vector store for EUDR laws and generating the LLM legal verdict.
+3.  **`agent.py`** : Orchestrates the LangGraph workflow, querying the ChromaDB vector store for EUDR laws and generating the LLM legal verdict.
 4.  **`app.py`**: The Streamlit frontend that wires the pipeline, handles user interactions, and renders the final PDF compliance report.
 
 ---
